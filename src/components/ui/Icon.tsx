@@ -18,7 +18,7 @@ export const Icon = React.memo(function Icon({ name, size = 20, color = "current
     strokeWidth,
     strokeLinecap: "round",
     strokeLinejoin: "round",
-  };
+  } as const;
   const paths = {
     home: (
       <svg {...common}>
